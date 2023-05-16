@@ -8,6 +8,7 @@ generate-model-factory: false
 csharp: true
 library-name: AppContainers
 namespace: Azure.ResourceManager.AppContainers
+require: https://github.com/Azure/azure-rest-api-specs/blob/905a9ad794ea9a1565ebe3857497b3a24872d553/specification/app/resource-manager/readme.md
 require: https://github.com/bgashirabake/azure-rest-api-specs/blob/f907cb1495e1cf588bf6926c5458594565c39862/README.md
 tag: package-2022-05
 output-folder: $(this-folder)/Generated
